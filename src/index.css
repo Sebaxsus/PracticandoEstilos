@@ -39,6 +39,18 @@ body::-webkit-scrollbar {
   visibility: hidden;
 }
 
+.textoDoble::after {
+  content: attr(data-text);
+  content: "JAPON";
+  position: absolute;
+  inset: 0;
+  color: rgba(255, 255, 255, 0.541);
+  filter: blur(8px);
+  transform: translate(-6px, 26px);
+  z-index: -1;
+  font-style: italic;
+}
+
 /* body::before {
   content: "";
   position: fixed;
