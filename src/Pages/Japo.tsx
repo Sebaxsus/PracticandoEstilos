@@ -21,9 +21,9 @@ export function Japo() {
         return <img src={`/Media/${src}`} alt={src} width={200} key={i} className='rounded-[125px] snap-center snap-always w-[200px] h-[200px] object-contain'/>
     })
     
-    // const caruselInterval = setInterval(() => {
-    //     moveCarusel();
-    // }, 6000);
+    const caruselInterval = setInterval(() => {
+        moveCarusel();
+    }, 6000);
     
 
     return (
@@ -36,12 +36,12 @@ export function Japo() {
                     <i>JAPON</i>
                 </h2>
             </div>
-            <section className='w-3/4 z-[-1] h-[180px] bg-[#c198c045] min-[1550px]:mb-0 mb-6 rounded-2xl flex flex-row overflow-hidden col-start-1 col-span-3 row-start-1 row-span-2  min-[1550px]:self-center self-end justify-self-center p-2 '>
+            <section className='w-3/4 z-[-1] h-[180px] bg-[#c198c045] min-[1550px]:mb-0 min-[1550px]:mt-28 mb-6 rounded-2xl flex flex-row overflow-hidden col-start-1 col-span-3 row-start-1 row-span-2  min-[1550px]:self-center self-end justify-self-center p-2 '>
                 <div id='carusel' className='snap-x snap-mandatory flex flex-col gap-x-16 flex-wrap overflow-hidden rounded-2xl'>
                     {caruselItems}
                 </div>
             </section>
-            <section className='max-w-lg text-justify leading-relaxed mb-8 font-BilboSwashCaps mt-8 min-[1550px]:text-2xl text-lg flex flex-col gap-4 text-[#2D2363] backdrop-blur-lg [text-shadow:0_4px_4px_#fff] col-start-1 col-span-2 row-start-3 min-[1550px]:row-start-2 min-[1550px]:row-end-5  self-center p-4 justify-self-center'>
+            <section className='max-w-lg text-justify leading-relaxed mb-8 font-BilboSwashCaps 2xl:mt-28 min-[1550px]:text-2xl text-lg flex flex-col gap-4 text-[#2D2363] backdrop-blur-lg [text-shadow:0_4px_4px_#fff] col-start-1 col-span-2 row-start-3 min-[1550px]:row-start-2 min-[1550px]:row-end-5  self-center p-4 justify-self-center'>
                 <p>
                     Descubre Japón, un destino donde la tradición y la modernidad conviven en perfecta armonía. Recorre templos milenarios en Kioto.
                 </p>
