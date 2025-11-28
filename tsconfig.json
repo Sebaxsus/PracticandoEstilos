@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "Preserve",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@fontsource/*": ["C:/Users/sebax/Desktop/Universidad/Proyectos_aleatorios/RepoEstilosWeb/RepoReact/node_modules/@fontsource/*"],
+      "@Media/*": ["C:/Users/sebax/Desktop/Universidad/Proyectos_aleatorios/RepoEstilosWeb/RepoReact/Media/*"],
+      "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["dist", "node_modules"]
+}
